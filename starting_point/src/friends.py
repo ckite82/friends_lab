@@ -14,3 +14,9 @@ def likes_to_eat(dictionary, food):
 
 def add_friend(dictionary, friend_name):
     dictionary["friends"].append(friend_name)
+
+def remove_friend(dictionary, friend_name):
+    for friend in dictionary["friends"]:
+        if friend == friend_name:
+            dictionary["friends"].remove(friend_name)
+
