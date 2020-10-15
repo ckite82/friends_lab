@@ -12,3 +12,5 @@ def likes_to_eat(dictionary, food):
         return False
 
 
+def add_friend(dictionary, friend_name):
+    dictionary["friends"].append(friend_name)
